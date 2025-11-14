@@ -20,3 +20,9 @@ We felt that this was interesting (it put our purely ad hoc measure of co-fluctu
 $$
 \mathbf{y} = \mathbf{z}_i \cdot \beta_i + \mathbf{z}_j \cdot \beta_j + \mathbf{z}_{ij} \cdot \beta_{ij} + \varepsilon
 $$
+
+Importantly, if $\beta_{ij}$ was statistically significant, this would suggest that time-varying connectivity (as measured by co-fluctuation time series) contributes explanatory power not obviously captured by activity alone. This would represent a potentially important finding, as many studies have suggested that time-varying features of brain recordings (especially BOLD fMRI) reflect statistical artifacts, e.g. apparent time-varying connectivity might simply be sampling variability (for example, see [Laumann et al 2017](https://academic.oup.com/cercor/article-abstract/27/10/4719/3060865)).
+
+In our preprint, we use these models to explain time-varying behavior in zebrafish, worms, and humans and show that, in all cases, the interaction term -- time-varying connectivity -- exhibits non-trivial explanatory power.
+
+This repository contains example code for fitting these types of models (really nothing more than multiple linear regression). It includes a data file, ```data.mat```
