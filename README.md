@@ -25,4 +25,6 @@ Importantly, if $\beta_{ij}$ was statistically significant, this would suggest t
 
 In our preprint, we use these models to explain time-varying behavior in zebrafish, worms, and humans and show that, in all cases, the interaction term -- time-varying connectivity -- exhibits non-trivial explanatory power.
 
-This repository contains example code for fitting these types of models (really nothing more than multiple linear regression). It includes a data file, ```data.mat```
+This repository contains example code for fitting these types of models (really nothing more than multiple linear regression). It includes a data file, ```data.mat```, that contains behavioral and parcel time series for one animal (zebrafish). The accompanying script, ```fit_models.m``` does just that -- it reads in the data and fits the above linear model for every pair of parcels.
+
+The ```fit_models.m``` script is ``bare bones,'' in the sense that it provides a scalable and extendable skeleton for applying these types of models to other datasets.
