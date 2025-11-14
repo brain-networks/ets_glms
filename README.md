@@ -17,6 +17,3 @@ When we first proposed this measure, we only had these ideas in mind; instantane
 
 We felt that this was interesting (it put our ad hoc measure of co-fluctuation time series on stronger statistical ground), but also opened up our eyes to new possibile ways of using these time series. One possibility, and the one that we focus on in the accompanying preprint, is to fully embrace edge time series as an interaction term in a multi-linear model that also contains terms for activations of regions $i$ and $j$, and to use the complete model to explain some time-behavior. That is, suppose $\mathbf{y}$ is some behavioral time series, we want to fit regression coefficients $\beta_i$, $\beta_j$, and $\beta_{ij}$ in the following equation:
 
-$$
-\mathbf{y} = \mathbf{z}_i \cdot \beta_i + \mathbf{z}_j \cdot \beta_j + \mathbf{z}_{ij} \cdot \beta_{ij} + \varepsilon
-$$
