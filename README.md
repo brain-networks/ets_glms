@@ -4,3 +4,11 @@ In a few recent papers ([Zamani Esfahlani et al 2020](https://www.pnas.org/doi/a
 $$
 r_{ij} = \frac{1}{T - 1} \sum_t [z_i(t) \cdot z_j(t)]
 $$
+
+The variable $r_{ij}$ is the standard bi-variate product-moment correlation and is often interpreted as a measure of functional connectivity. Our approach simply omits the summation, returning instead:
+
+$$
+r_{ij}(t) = z_i(t) \cdot z_j(t)
+$$
+
+The value of $r_{ij}(t)$ is the instantaneous co-fluctuation between the activity of regions $i$ and $j$. It is positive when the two regions are deviating in the same direction with respect to their means. It is large when the deviations are large; it is close to zero if one or both regions are close to their mean. Importantly, it tells us \emph{when}
