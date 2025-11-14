@@ -23,8 +23,12 @@ $$
 
 Importantly, if $\beta_{ij}$ was statistically significant, this would suggest that time-varying connectivity (as measured by co-fluctuation time series) contributes explanatory power not obviously captured by activity alone. This would represent a potentially important finding, as many studies have suggested that time-varying features of brain recordings (especially BOLD fMRI) reflect statistical artifacts, e.g. apparent time-varying connectivity might simply be sampling variability (for example, see [Laumann et al 2017](https://academic.oup.com/cercor/article-abstract/27/10/4719/3060865)).
 
-In our preprint, we use these models to explain time-varying behavior in zebrafish, worms, and humans and show that, in all cases, the interaction term -- time-varying connectivity -- exhibits non-trivial explanatory power.
+In our [preprint](https://www.biorxiv.org/content/10.1101/2024.08.29.609259.abstract), we use these models to explain time-varying behavior in zebrafish, worms, and humans and show that, in all cases, the interaction term -- time-varying connectivity -- exhibits non-trivial explanatory power.
 
 This repository contains example code for fitting these types of models (really nothing more than multiple linear regression). It includes a data file, ```data.mat```, that contains behavioral and parcel time series for one animal (zebrafish). The accompanying script, ```fit_models.m``` does just that -- it reads in the data and fits the above linear model for every pair of parcels.
 
 The ```fit_models.m``` script is ``bare bones,'' in the sense that it provides a scalable and extendable skeleton for applying these types of models to other datasets.
+
+If you use this code, please cite the preprint as:
+
+Merritt, H., Mejia, A., & Betzel, R. (2024). The dual interpretation of edge time series: Time-varying connectivity versus statistical interaction. bioRxiv, 2024-08.
