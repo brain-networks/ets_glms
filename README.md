@@ -31,4 +31,4 @@ The ```fit_models.m``` script is ``bare bones,'' in the sense that it provides a
 
 If you use this code, please cite the preprint as:
 
-Merritt, H., Mejia, A., & Betzel, R. (2024). The dual interpretation of edge time series: Time-varying connectivity versus statistical interaction. bioRxiv, 2024-08.
+Merritt, H., Mejia, A., & Betzel, R. (2024). The dual interpretation of edge time series: Time-varying connectivity versus statistical interaction. bioRxiv, 2024-08. [link to preprint](https://www.biorxiv.org/content/10.1101/2024.08.29.609259.abstract)
